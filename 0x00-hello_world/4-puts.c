@@ -1,6 +1,7 @@
 /**
- * main prints out a string with out using printf
- * main returns 0
+ * main - prints out a string with out using printf
+ * 
+ *Return: main returns 0
  */
 #include<stdio.h>
 #include<string.h>
