@@ -9,10 +9,10 @@ char charSize;
 int intSize;
 float floatSize;
 long longSize;
-printf("Size of a char: %zu byte(s)\n", sizeof(charSize));
-printf("Size of an int: %zu byte(s)\n", sizeof(intSize));
+printf("Size of a char: %d byte(s)\n", sizeof(charSize));
+printf("Size of an int: %d byte(s)\n", sizeof(intSize));
 printf("Size of a long int: %zu byte(s)\n", sizeof(intSize));
 printf("Size of a long long int: %zu byte(s)\n", sizeof(longSize));
-printf("Size of a float: %zu byte(s)\n", sizeof(floatSize));
+printf("Size of a float: %d byte(s)\n", sizeof(floatSize));
 return (0);
 }
