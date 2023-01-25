@@ -1,13 +1,14 @@
-#include<stdio.h>
-#include<string.h>
 /**
  * prints out a string with out using printf
+ * main returns 0
  */
-int main()
+#include<stdio.h>
+#include<string.h>
+int main(void)
 {
   char Mystr[] = "Programming is like building a multilingual puzzle\n";
 
-    puts(Mystr);
+  puts(Mystr);
 
-    return(0);
+  return(0);
 }
