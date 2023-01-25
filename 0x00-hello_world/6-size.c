@@ -9,7 +9,7 @@ char charSize;
 int intSize;
 float floatSize;
 long longSize;
-long long int llSize:
+long long int llSize;
 printf("Size of a char: %d byte(s)\n", sizeof(charSize));
 printf("Size of an int: %d byte(s)\n", sizeof(intSize));
 printf("Size of a long int: %ld byte(s)\n", sizeof(longSize));
