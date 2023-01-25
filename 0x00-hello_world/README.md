@@ -1,0 +1,1 @@
+hwo to understand the basics of the c language
