@@ -8,9 +8,9 @@ int main(void)
 int p;
 for (p = 0; p <= 10; p++)
 {
-if (p <= 9)
-{
 putchar('0' + p);
+if (p <= 8)
+{
 putchar(',');
 putchar(' ');
 }
