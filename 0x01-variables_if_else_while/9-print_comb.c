@@ -13,7 +13,7 @@ if (p <= 9)
 putchar('0' + p);
 putchar(',');
 putchar(' ');
-break
+break;
 }
 }
 putchar('\n');
