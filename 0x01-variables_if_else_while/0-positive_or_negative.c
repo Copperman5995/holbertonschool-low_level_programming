@@ -3,7 +3,7 @@
  * Return: retuns neg or pos
  */
 #include <stdio.h>
-#include <stdib.h>
+#include <stdlib.h>
 #include <time.h>
 int main(void)
 {
