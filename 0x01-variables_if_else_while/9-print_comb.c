@@ -13,10 +13,10 @@ if (p <= 9)
 putchar('0' + p);
 putchar(',');
 putchar(' ');
+}
 else if (p == 9)
 {
 break;
-}
 }
 }
 putchar('\n');
