@@ -2,9 +2,9 @@
  * main - determins if num is pos or neg
  * Return: retuns neg or pos
  */
-#include<stdio.h>
-#include<stdib.h>
-#include<time.h>
+#include <stdio.h>
+#include <stdib.h>
+#include <time.h>
 int main(void)
 {
 int n;
