@@ -5,9 +5,9 @@
 #include"main.h"
 int main(void)
 {
-int pp[8] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r' };
+int pp[8] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
 int i = 0;
-while (i < 8)
+while (i < 9)
 {
 	putchar(pp[i]);
 	i++;
