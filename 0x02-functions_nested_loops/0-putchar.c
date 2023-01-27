@@ -2,7 +2,7 @@
  * main - jbghjdchdfsfjggj
  * Return: return 0
  */
-#include"main.h"
+#include "main.h"
 int main(void)
 {
 char *myput = "_putchar";
