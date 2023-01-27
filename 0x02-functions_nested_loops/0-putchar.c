@@ -5,9 +5,13 @@
 #include"main.h"
 int main(void)
 {
-	putchar('_p');
-	putchar('ut');
-	putchar('ch');
-	putchar('ar');
+int pp[8] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r' };
+int i = 0;
+while (i <= 8)
+{
+	putchar(pp[i]);
+	i++;
+}
+putchar('\n');
 	return (0);
 }
