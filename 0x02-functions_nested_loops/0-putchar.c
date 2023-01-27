@@ -12,6 +12,6 @@ while (i <= 8)
 	putchar(pp[i]);
 	i++;
 }
-putchar('\n');
+
 	return (0);
 }
