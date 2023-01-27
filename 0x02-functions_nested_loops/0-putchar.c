@@ -5,7 +5,7 @@
 #include"main.h"
 int main(void)
 {
-int pp[8] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
+int pp[9] = { '_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n' };
 int i = 0;
 while (i < 9)
 {
