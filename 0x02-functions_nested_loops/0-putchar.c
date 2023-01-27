@@ -1,11 +1,10 @@
 /**
- *main - pritns _putchar
- *Return: return main
+ * main - jbghjdchdfsfjggj
+ * Return: return 0
  */
-#include<stdio.h>
-#include<string.h>
 int main(void)
 {
-printf("_putchar");
-return (0);
+	char ch = "_putchar";
+	putchar(ch);
+	return (0);
 }
