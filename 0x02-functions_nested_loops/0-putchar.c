@@ -5,7 +5,6 @@
 #include"main.h"
 int main(void)
 {
-	char ch = '_putchar';
-	putchar(ch);
+	putchar('0' + '_putchar');
 	return (0);
 }
