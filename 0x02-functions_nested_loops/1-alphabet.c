@@ -11,5 +11,4 @@ while (ab <= 'z')
 _putchar(ab);
 ab++;
 }
-return (0);
 }
