@@ -5,6 +5,9 @@
 #include"main.h"
 int main(void)
 {
-	putchar('0' + '_putchar');
+	putchar('_p');
+	putchar('ut');
+	putchar('ch');
+	putchar('ar');
 	return (0);
 }
