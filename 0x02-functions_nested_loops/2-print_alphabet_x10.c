@@ -1,5 +1,5 @@
 /**
- * print_alphabet - jbjzfm,kjdfskjEWNKJDSTBJOIGBJKL
+ * print_alphabet_x10 - jbjzfm,kjdfskjEWNKJDSTBJOIGBJKL
  * Return: returns 0
  */
 #include"main.h"
