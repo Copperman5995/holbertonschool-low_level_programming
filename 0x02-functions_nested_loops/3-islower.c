@@ -7,7 +7,7 @@ int _islower(int c)
 {
 	char il = '1';
 	char nl = '0';
-	if ( _islower(c)  < 0)
+	if ( _islower(c))
 	{
 		_putchar(il);
 		return (1);
