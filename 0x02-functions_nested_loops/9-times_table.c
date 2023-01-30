@@ -24,11 +24,11 @@ void times_table(void)
 			{
 				_putchar(x + '0');
 			}
-			if (column < 10)
+			if (column < 9)
 			{
 				_putchar(',');
 				_putchar(' ');
-				if ( x < 10)
+				if (x < 10)
 				{
 					_putchar(' ');
 				}
