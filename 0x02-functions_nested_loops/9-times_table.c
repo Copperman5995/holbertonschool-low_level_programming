@@ -26,10 +26,18 @@ void times_table(void)
 			}
 			if (column < 9)
 			{
-				_putchar(',');
-				_putchar(' ');
-				if (x < 10)
+				if (row <= 4)
 				{
+					_putchar(',');
+					_putchar(' ');
+					if (x < 10)
+					{
+						_putchar(' ');
+					}
+				}
+				else if ((x + 5) >= 10)
+				{
+					_putchar(',');
 					_putchar(' ');
 				}
 			}
