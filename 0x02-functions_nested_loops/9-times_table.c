@@ -8,11 +8,11 @@ void times_table(void)
 {
 	int row = 0;
 	int column = 0;
-	int x;
+	long int x;
 
-	while (row < 9)
+	while (row < 10)
 	{
-		while (column < 9)
+		while (column < 10)
 		{
 			x = row * column;
 			_putchar(x + '0');
@@ -20,7 +20,7 @@ void times_table(void)
 			_putchar(' ');
 			column++;
 		}
-		column = 0;
+		column = 0i;
 		_putchar('\n');
 		row++;
 	}
