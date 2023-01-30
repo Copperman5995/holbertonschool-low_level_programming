@@ -12,11 +12,12 @@ void times_table(void)
 
 	while (row < 10)
 	{
-		column = 1;
 		while (column < 10)
 		{
 			x = row * column;
 			_putchar(x + '0');
+			_putchar(',');
+			_putchar(' ');
 			column++;
 		}
 		_putchar('\n');
