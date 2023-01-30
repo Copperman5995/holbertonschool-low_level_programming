@@ -23,7 +23,7 @@ void pritn_to_98(int n)
 			}
 			_putchar(',');
 			_putchar(' ');
-			to--
+			to--;
 		}
 	}
 	else if (n < 98)
@@ -41,7 +41,7 @@ void pritn_to_98(int n)
 			}
 			_putchar(',');
 			_putchar(' ');
-			to++
+			to++;
 		}
 	}
 	else if (n == 98)
