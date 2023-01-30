@@ -26,23 +26,13 @@ void times_table(void)
 			}
 			if (column < 9)
 			{
-				if (row <= 4)
+				_putchar(',');
+				if ((x + row) >= 10)
 				{
-					_putchar(',');
-					_putchar(' ');
-					if (x < 10)
-					{
-						_putchar(' ');
-					}
-				}
-				else if ((x + 5) >= 10)
-				{
-					_putchar(',');
 					_putchar(' ');
 				}
 				else
 				{
-					_putchar(',');
 					_putchar(' ');
 					_putchar(' ');
 				}
