@@ -15,8 +15,15 @@ void times_table(void)
 		while (column < 10)
 		{
 			x = row * column;
+			if (x >= 10)
+			{
 			_putchar((x / 10) + '0');
 			_putchar((x % 10) + '0');
+			}
+			else
+			{
+				_putchar(x + '0');
+			}
 			if (column < 10)
 			{
 			_putchar(',');
