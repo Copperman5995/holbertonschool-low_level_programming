@@ -26,9 +26,17 @@ void times_table(void)
 			}
 			if (column < 10)
 			{
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
+				if (x >= 10)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
+				else
+				{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				}
 			}
 			column++;
 		}
