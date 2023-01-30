@@ -10,9 +10,9 @@ void times_table(void)
 	int column = 0;
 	int x;
 
-	while (row < 10)
+	while (row < 9)
 	{
-		while (column < 10)
+		while (column < 9)
 		{
 			x = row * column;
 			_putchar(x + '0');
@@ -20,6 +20,7 @@ void times_table(void)
 			_putchar(' ');
 			column++;
 		}
+		column = 0;
 		_putchar('\n');
 		row++;
 	}
