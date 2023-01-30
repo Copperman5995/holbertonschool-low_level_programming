@@ -1,7 +1,7 @@
 /**
  * print_sign - determisn if c is pos or neg then returns sing
  * @n: is a int
- * Return: returns 1 and if n > 0, returns 0 if n = 0, returns -1 if n < 0 
+ * Return: returns 1 and if n > 0, returns 0 if n = 0, returns -1 if n < 0
  */
 #include "main.h"
 int print_sign(int n)
