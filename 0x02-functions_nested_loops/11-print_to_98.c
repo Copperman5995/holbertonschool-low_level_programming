@@ -4,7 +4,7 @@
  * @n: is starting int
  * Return: returns 0
  */
-void pritn_to_98(int n)
+void print_to_98(int n)
 {
 	int to = n;
 	
