@@ -16,8 +16,12 @@ void times_table(void)
 		{
 			x = row * column;
 			_putchar(x + '0');
+			if (column < 10)
+			{
 			_putchar(',');
 			_putchar(' ');
+			_putchar(' ');
+			}
 			column++;
 		}
 		column = 0;
