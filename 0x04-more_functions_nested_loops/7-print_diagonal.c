@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_line - prints line
+ * print_diagonal - prints diagonal line
  *@n: int value
  *Return: returns nothing
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int c = 0;
 	int c2 = 0;
