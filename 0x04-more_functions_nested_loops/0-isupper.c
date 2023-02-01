@@ -2,7 +2,7 @@
 /**
  * _isupper - ghghgjgjdjdjdjddjjd
  * @c: c is a ASCII chater
- * Returns: return 1 if c is uppercase if not return 0
+ * Return: return 1 if c is uppercase if not return 0
  */
 
 int _isupper(int c)
