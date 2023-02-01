@@ -9,6 +9,7 @@ void print_diagonal(int n)
 {
 	int c = 0;
 	int c2 = 0;
+	int l1;
 
 	if (n <= 0)
 	{
@@ -17,12 +18,15 @@ void print_diagonal(int n)
 	{
 		while (c < n)
 		{
-			while (c2 < n)
+			l1 = n - 1;
+			while (c2 < l1)
 			{
 				_putchar(' ');
 				c2++;
 			}
 			_putchar('\n');
+			c++;
+			l1= l1 + 2;
 			c++;
 		}
 	}
