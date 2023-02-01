@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	print_line(-66);
-	print_line(1);
-	print_line(6);
-	print_line(20);
+	print_diagonal(0);
+	print_diagonal(2);
+	print_diagonal(10);
+	print_diagonal(-4);
 	return (0);
 }
 
