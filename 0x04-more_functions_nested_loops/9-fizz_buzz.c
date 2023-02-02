@@ -30,6 +30,7 @@ int main(void)
 		}
 		x++;
 	}
+	printf("\n");
 	return (0);
 }
 
