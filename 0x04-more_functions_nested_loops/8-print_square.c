@@ -19,11 +19,12 @@ void print_square(int size)
 		{
 			while (c2 < size)
 			{				
-				_putchar(' ');
+				_putchar('#');
 				c2++;
 			}
 			_putchar('\n');
 			c++;
+			c2 = 0;
 		}
 	}
 	_putchar('\n');
