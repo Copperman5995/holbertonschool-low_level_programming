@@ -21,12 +21,19 @@ void print_diagonal(int n)
 			l1 = n - 1;
 			while (c2 < l1)
 			{
-				_putchar(' ');
+				if ((c2 + 1) >= n)
+				{
+					_putchar('\\');
+				}
+				else
+				{
+					_putchar(' ');
+				}
 				c2++;
 			}
 			_putchar('\n');
 			c++;
-			l1= l1 + 2;
+			l1 = l1 + 2;
 			c++;
 		}
 	}
