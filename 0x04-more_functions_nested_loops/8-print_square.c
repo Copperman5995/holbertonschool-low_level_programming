@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_square - prints diagonal line
- *@n: int value
+ *@size: size of square int value
  *Return: returns nothing
  */
 
@@ -18,7 +18,7 @@ void print_square(int size)
 		while (c < size)
 		{
 			while (c2 < size)
-			{				
+			{	
 				_putchar('#');
 				c2++;
 			}
