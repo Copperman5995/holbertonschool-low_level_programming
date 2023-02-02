@@ -7,21 +7,16 @@
 
 void print_diagonal(int n)
 {
-	int c = 0;
-	int c2 = 0;
-	int l1;
+	/*int i = 0;
+	int j = 0;*/
 
-	if (n <= 0)
+	if (n > 0)
 	{
-	}
-	else
-	{
-		while (c < n)
+		for (int i = 0; i < n; i++)
 		{
-			l1 = n - 1;
-			while (c2 < l1)
+			for (int j = 0; j < n; j++)
 			{
-				if ((c2 + 1) >= n)
+				if (j == i)
 				{
 					_putchar('\\');
 				}
@@ -29,13 +24,16 @@ void print_diagonal(int n)
 				{
 					_putchar(' ');
 				}
-				c2++;
+				/*j++;*/
 			}
+			/*i++;*/
 			_putchar('\n');
-			c++;
-			l1 = l1 + 2;
-			c++;
 		}
 	}
-	_putchar('\n');
+	else
+	{
+		_putchar('\n');
+	}
+
+
 }
