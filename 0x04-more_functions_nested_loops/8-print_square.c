@@ -5,19 +5,19 @@
  *Return: returns nothing
  */
 
-void print_square(int n)
+void print_square(int size)
 {
 	int c = 0;
 	int c2 = 0;
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 	}
 	else
 	{
-		while (c < n)
+		while (c < size)
 		{
-			while (c2 < n)
+			while (c2 < size)
 			{				
 				_putchar(' ');
 				c2++;
