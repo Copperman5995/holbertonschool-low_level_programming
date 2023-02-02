@@ -18,7 +18,7 @@ void print_square(int size)
 		while (c < size)
 		{
 			while (c2 < size)
-			{	
+			{
 				_putchar('#');
 				c2++;
 			}
