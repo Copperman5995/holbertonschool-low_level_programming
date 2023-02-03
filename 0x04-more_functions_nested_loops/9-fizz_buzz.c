@@ -5,7 +5,6 @@
  *
  * Return: retursn nothing
  */
-
 int main(void)
 {
 	int x = 1;
