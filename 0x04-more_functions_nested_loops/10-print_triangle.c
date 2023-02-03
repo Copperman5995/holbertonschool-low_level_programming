@@ -1,32 +1,42 @@
 #include "main.h"
 /**
  * print_triangle - prints diagonal line
- *@n: int value
+ *@size: int value
  *Return: returns nothing
  */
 
-void print_triangle(int n)
+void print_triangle(int size)
 {
-	int i;
+	int space = size;
+	int p = 1;
+	int i = 0;
 	int j;
 
-	if (n > 0)
+	if (size > 0)
 	{
-		for (i = 0; i < n; i++)
+		while (i < size)
 
 		{
-			for (j = 0; j > i; j++)
+			for (j = 1; j <= size; j++)
 			{
-				_putchar(' ');
+				if (space > p)
+				{
+					_putchar(' ');
+					space--;
+				}
+				else
+				{
+					_putchar('#');
+					space--;
+				}
 			}
-			_putchar('\\');
 			_putchar('\n');
+			i++;
+			space = size - i;
 		}
 	}
-	else
-	{
-		_putchar('\n');
-	}
+
+
 
 
 }
