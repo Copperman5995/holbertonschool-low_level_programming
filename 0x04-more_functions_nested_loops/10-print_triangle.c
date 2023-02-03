@@ -35,6 +35,10 @@ void print_triangle(int size)
 			space = size - i;
 		}
 	}
+	else
+	{
+		_putchar('\n');
+	}
 
 
 
