@@ -21,7 +21,7 @@ int main(void)
 		}
 		else if ((x % 3) != 0 && (x % 5) == 0)
 		{
-			if ( x != 100)
+			if (x != 100)
 			{
 				printf("Buzz ");
 			}
