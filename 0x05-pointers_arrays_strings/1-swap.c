@@ -10,7 +10,7 @@ void sawp_int(int *a, int *b)
 {
 	int s;
 
-	*a = &s;
+	s = *a;
 	*a = *b;
-	*b = s;
+	*b = &s;
 }
