@@ -19,11 +19,5 @@ char *_strcpy(char *dest, char *src)
 	}
 	dest[i] = '\0';
 	i = 0;
-	/*while (dest[i] != '\0')
-	{
-		_putchar(dest[i]);
-		i++;
-	}*/
-	_putchar('\n');
 	return (dest);
 }
