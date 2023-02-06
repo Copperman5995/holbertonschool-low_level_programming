@@ -6,7 +6,7 @@
  * Return: retusn nothing
  */
 
-void sawp_int(int *a, int *b)
+void swap_int(int *a, int *b)
 {
 	int s = (int)*a;
 
