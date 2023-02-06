@@ -17,13 +17,13 @@ char *_strcpy(char *dest, char *src)
 		dest[i] = src[i];
 		i++;
 	}
+	dest[i] = '\0';
 	i = 0;
-	while (dest[i] != '\0')
+	/*while (dest[i] != '\0')
 	{
 		_putchar(dest[i]);
 		i++;
-	}
-	dest[i] = '\0';
+	}*/
 	_putchar('\n');
 	return (dest);
 }
