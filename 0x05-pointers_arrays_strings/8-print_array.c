@@ -12,7 +12,7 @@ void print_array(int *a, int n)
 
 	while (a[i] <= n)
 	{
-		_putchar(s[i]);
+		_putchar(a[i]);
 		printf(", ");
 		i++;
 	}
