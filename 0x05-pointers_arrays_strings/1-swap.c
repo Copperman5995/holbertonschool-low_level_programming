@@ -11,5 +11,5 @@ void sawp_int(int *a, int *b)
 	int s = (int)*a;
 
 	*a = *b;
-	*b = &s;
+	b = &s;
 }
