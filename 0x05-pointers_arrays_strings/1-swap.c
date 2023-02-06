@@ -8,9 +8,8 @@
 
 void sawp_int(int *a, int *b)
 {
-	int s;
+	int s = (int)*a;
 
-	s = *a;
 	*a = *b;
 	*b = &s;
 }
