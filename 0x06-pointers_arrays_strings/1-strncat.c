@@ -25,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 		c++;
 		destlen++;
 	}
-	if (n > srclen)
+	if (n < srclen)
 	{
 		i++;
 		dest[i] = '\0';
