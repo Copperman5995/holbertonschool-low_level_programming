@@ -13,25 +13,30 @@ char *_strncpy(char *dest, char *src, int n)
 	int destlen = _strlen(dest);
 	int c = 0;
 
-	while (c <= (n - 1))
-	{
-		dest[c] = src[c];
-		c++;
-	}
 	if (srclen < n)
 	{
 		while (c <= destlen)
 		{
-			dest[c] = '\0';
+			if (c < n)
+			{ 
+				dest[c] = src[c];
+			}
+			else if (c >= n)
+			{
+				dest[c] = '\0';
+			}
+			c++;
+		}
+	}
+	else
+	{
+		while (c < n)
+		{
+			dest[c] = src[c];
 			c++;
 		}
 	}
 	return (dest);
-
-
-
-
-
 }
 
 /**
