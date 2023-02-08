@@ -28,11 +28,11 @@ char *_strncat(char *dest, char *src, int n)
 		f++;
 		j++;
 	}
-	/*if (src[f] != '\0')
+	if (src[f] != '\0')
 	{
 		f++;
 		src[f] = '\0';
-	}*/
+	}
 
 	while (i <= j)
 	{
