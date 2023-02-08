@@ -4,7 +4,7 @@
  * @dest: djfgkdfgfgkjd
  * @src: dkfjgdjfkg
  * @n: odfjogjiseif
- * return: dkfgkjdjfgjh
+ * Return: dkfgkjdjfgjh
  */
 
 char *_strncpy(char *dest, char *src, int n)
