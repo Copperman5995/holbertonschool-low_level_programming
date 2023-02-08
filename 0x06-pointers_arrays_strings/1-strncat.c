@@ -35,7 +35,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		c++;
 	}
-	if (n < f)
+	if (n > f)
 	{
 		i++;
 		dest[i] = '\0';
