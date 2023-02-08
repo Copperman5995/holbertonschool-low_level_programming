@@ -8,10 +8,9 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	/*int destlen = _strlen(dest);*/
 	int c = 0;
 
-	while (c <= n)
+	while (c <= (n - 1))
 	{
 		dest[c] = src[c];
 		c++;
@@ -23,15 +22,3 @@ char *_strncpy(char *dest, char *src, int n)
 
 
 }
-
-
-/*int _strlen(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}*/
