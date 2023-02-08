@@ -3,17 +3,17 @@
 
 int main(void)
 {
-	char s1[20];
+	char s1[98];
 	char *ptr;
 	int i;
 
-	for (i = 0; i < 20 - 1; i++)
+	for (i = 0; i < 98 - 1; i++)
 	{
 		s1[i] = '*';
 	}
 	s1[i] = '\0';
 	printf("%s\n", s1);
-	ptr = _strncpy(s1, "First", 10);
+	ptr = _strncpy(s1, "First\n", 10);
 	printf("%s\n", s1);
 	printf("%s\n", ptr);
 	ptr = _strncpy(s1, "First, slove the problem. Then, write the code\n", 90);

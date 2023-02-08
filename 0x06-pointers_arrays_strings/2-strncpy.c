@@ -17,13 +17,13 @@ char *_strncpy(char *dest, char *src, int n)
 	{
 		while (c <= destlen)
 		{
-			if (c < n)
+			if (c <= srclen)
 			{ 
 				dest[c] = src[c];
 			}
 			else if (c >= n)
 			{
-				dest[c] = '\0';
+				dest[c] = '-';
 			}
 			c++;
 		}
@@ -36,6 +36,7 @@ char *_strncpy(char *dest, char *src, int n)
 			c++;
 		}
 	}
+	dest[c] = '\0';
 	return (dest);
 }
 
