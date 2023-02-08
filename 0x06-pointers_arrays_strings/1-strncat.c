@@ -35,7 +35,7 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		c++;
 	}
-	if (src[n] <= src[c])
+	if (src[n] <= src[f])
 	{
 		return (dest);
 	}
