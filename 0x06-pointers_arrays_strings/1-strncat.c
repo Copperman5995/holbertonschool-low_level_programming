@@ -37,6 +37,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	if (n < f)
 	{
+		i++;
 		dest[i] = '\0';
 	}
 	return (dest);
