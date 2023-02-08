@@ -21,6 +21,10 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	while (src[f] <= n)
 	{
+		if (src[f] == '\0')
+		{
+			break;
+		}
 		f++;
 		j++;
 	}
