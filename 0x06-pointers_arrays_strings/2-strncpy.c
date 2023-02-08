@@ -8,7 +8,7 @@
 
 char *_strncpy(char *dest, char *src, int n)
 {
-	//int destlen = _strlen(dest);//
+	/*int destlen = _strlen(dest);*/
 	int c = 0;
 
 	while (c <= n)
