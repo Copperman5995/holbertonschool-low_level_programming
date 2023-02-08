@@ -28,6 +28,11 @@ char *_strncat(char *dest, char *src, int n)
 		f++;
 		j++;
 	}
+	/*if (src[f] != '\0')
+	{
+		f++;
+		src[f] = '\0';
+	}*/
 
 	while (i <= j)
 	{
@@ -35,11 +40,11 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		c++;
 	}
-	if (src[n] <= src[f])
-	{
-		return (dest);
-	}
 
 	dest[i] = '\0';
+	i = 0;
+	j = 0;
+	f = 0;
+	c = 0;
 	return (dest);
 }
