@@ -40,7 +40,7 @@ char *_strncat(char *dest, char *src, int n)
 /**
  * _strlen - kdfgldfkjghlsdfhg
  * @s: dknfgdjfnghkd
- * return: sdjfgkjdf
+ * Return: sdjfgkjdf
  */
 
 
