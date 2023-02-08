@@ -35,6 +35,11 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 		c++;
 	}
+	if (src[n] <= src[c])
+	{
+		return (dest);
+	}
+
 	dest[i] = '\0';
 	return (dest);
 }
