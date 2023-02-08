@@ -13,7 +13,7 @@ int main(void)
 	}
 	s1[i] = '\0';
 	printf("%s\n", s1);
-	ptr = _strncpy(s1, "First\n", 10);
+	ptr = _strncpy(s1, "First, slove the problem. Then, wirte the code\n", 5);
 	printf("%s\n", s1);
 	printf("%s\n", ptr);
 	ptr = _strncpy(s1, "First, slove the problem. Then, write the code\n", 90);
