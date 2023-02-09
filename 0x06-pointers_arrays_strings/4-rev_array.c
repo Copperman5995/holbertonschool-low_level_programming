@@ -8,17 +8,16 @@
 
 void reverse_array(int *a, int n)
 {
-	int temp;
-	int temp2;
-	int c1 = 0;
+	int first;
+	int last;
 	int len = n - 1;
 
-	while (c1 <= (n / 2))
+	while (len >= (n / 2))
 	{
-		temp = a[len];
-		temp2 = a[c1];
-		a[c1] = temp;
-		a[len] = temp2;
+		first = a[len];
+		last = a[n - 1 - len];
+		a[n - 1 - len] = first;
+		a[len] = last;
 		len--;
 	}
 }
