@@ -7,20 +7,21 @@
 
 char *cap_string(char *str)
 {
-	int len = 0;
+    int len = 0;
 
-	while (str[len] != '\0')
-	{
-		if (str[len] == ' ', ',', ';', '.', '!', '?', '\"', '(', ')', '{', '}')
-		{
-			len++;
-			if (str[len] >= 'a' && str[len] <= 'z')
-			{
-				str[len] = str[len] - 32;
-			}
-
-		}
-		len++;
-	}
-	return (str);
+    while (str[len])
+    {
+        if (!(str[len] >= 'a' && str[len] <= 'z' || str[len] >= 'A' && str[len] <= 'Z'))
+        {
+          if (!(str[len + 1] >= 'a' && str[len] <= 'z' || str[len] >= 'A' && str[len] <= 'Z'))
+          {
+          }
+          else
+          {
+            str[len + 1] = str[len + 1] - 32;
+          }
+        }
+        len++;
+    }
+    return (str);
 }
