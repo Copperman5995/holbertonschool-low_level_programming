@@ -13,13 +13,13 @@ char *cap_string(char *str)
     {
         if (!(str[len] >= 'a' && str[len] <= 'z' || str[len] >= 'A' && str[len] <= 'Z'))
         {
-          if (!(str[len + 1] >= 'a' && str[len] <= 'z' || str[len] >= 'A' && str[len] <= 'Z'))
-          {
-          }
-          else
-          {
-            str[len + 1] = str[len + 1] - 32;
-          }
+            if (!(str[len + 1] >= 'a' && str[len] <= 'z' || str[len] >= 'A' && str[len] <= 'Z'))
+            {
+            }
+            else
+            {
+                str[len + 1] = str[len + 1] - 32;
+            }
         }
         len++;
     }
