@@ -7,31 +7,59 @@
 
 char *cap_string(char *str)
 {
-	int len = 0;
+    int index = 0;
 
-	while (str[len])
-	{
-		if (len == 0)
-		{
-			if (str[len] >= 'a' && str[len] <= 'z')
-			{
-				str[len] = str[len] - 32;
-			}
-		}
-		else if (!(str[len] >= 'a' && str[len] <= 'z'))
-		{
-			if (!(str[len] >= 'A' && str[len] <= 'Z'))
-			{
-				if (!(str[len + 1] >= 'a' && str[len + 1] <= 'z'))
-				{
-				}
-				else
-				{
-					str[len + 1] = str[len + 1] - 32;
-				}
-			}
-		}
-		len++;
-	}
-	return (str);
+    while (str[index])
+    {
+        if (index == 0)
+        {
+            if (str[index] >= 'a' && str[index] <= 'z')
+            {
+                str[index] = str[index] - 32;
+            }
+        }
+        if (str[index + 1] >= 'a' && str[index + 1] <= 'z')
+        {
+        if (str[index] == ' ' || str[index] == '\t')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == '\n' || str[index] == ',')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == ';' || str[index] == '.')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == '!' || str[index] == '?')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == '"' || str[index] == '(')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == ')' || str[index] == '{')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (str[index] == '}')
+        {
+            str[index + 1] = str[index + 1] - 32;
+        }
+        else if (!(str[index] >= 'a' && str[index] <= 'z'))
+        {
+            if (!(str[index + 1] >= 'A' && str[index + 1] <= 'Z'))
+            {
+            }
+            else
+            {
+                str[index + 1] = str[index + 1] - 32;
+            }
+        }
+        }
+        index++;
+    }
+    return (str);
 }
