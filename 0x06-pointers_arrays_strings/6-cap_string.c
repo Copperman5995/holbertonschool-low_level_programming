@@ -22,7 +22,7 @@ char *cap_string(char *str)
 		{
 			if (!(str[len] >= 'A' && str[len] <= 'Z'))
 			{
-				if (!(str[len + 1] >= 'a' && str[len] <= 'z'))
+				if (!(str[len + 1] >= 'a' && str[len + 1] <= 'z'))
 				{
 				}
 				else

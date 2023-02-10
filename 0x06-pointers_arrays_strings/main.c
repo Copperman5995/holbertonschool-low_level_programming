@@ -3,7 +3,7 @@
 
 int main(void)
 {
-	char str[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\nhello world! hello-world 0123456hello world\thello world.hello world\n";
+	char str[] = "testing 6-cap_string, tesingt everthing thats not a letter. this cHecker is a stupidds\" ass;bitch!!!!!!!!!!! why This no work? (betty also a bitch) {testing everthingnow}\n";
 	char *ptr;
 
 	ptr = cap_string(str);
