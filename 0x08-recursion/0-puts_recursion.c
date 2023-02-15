@@ -8,11 +8,9 @@
 
 void _puts_recursion(char *s)
 {
-	int index = 0;
-
-	while (s[index])
+	if (*s)
 	{
-		printf("%d", s[index]);
-		index++;
+		_puts_recursion(s - 1);
+		printf("%c", *s);
 	}
 }
