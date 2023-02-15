@@ -11,7 +11,7 @@ void _puts_recursion(char *s)
 
 	while (s[index])
 	{
-		_putchar(s[index]);
+		printf("%d", s[index]);
 		index++;
 	}
 }
