@@ -1,9 +1,9 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *factorial(int n) - prints the factorials
- *@n: n is the int
- *Return: returns the factorial of n
+ * factorial(int n) - prints the factorials
+ * @n: n is the int
+ * Return: returns the factorial of n
  */
 
 int factorial(int n)
@@ -18,7 +18,7 @@ int factorial(int n)
 	}
 	else
 	{
-		return (n * factorial(n-1));
+		return (n * factorial(n - 1));
 	}
 }
 
