@@ -16,7 +16,7 @@ int is_prime_number(int n)
 
 	for (c = 2; c <= n / 2; c++)
 	{
-		if (n % i == 0)
+		if (n % c == 0)
 		{
 			return (0);
 		}
