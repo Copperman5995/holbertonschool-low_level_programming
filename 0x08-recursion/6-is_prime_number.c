@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * is_prime_number - tell if a number is prime
- * @n: is number 
+ * @n: is number
  * Return: returns 1 if the n is a prime number
  */
 
@@ -14,13 +14,9 @@ int is_prime_number(int n)
 		return (0);
 	}
 
-	for (c = 2; c <= n / 2; c++)
+	if (n % 1 == 0 && n % n = 0 && n % (n / 2) != 0)
 	{
-		if (n % c == 0)
-		{
-			return (0);
-		}
+		return (1);
 	}
-
-	return (1);
+	
 }
