@@ -2,7 +2,7 @@
 /**
  *_puts - gggggggggggggg
  *@str: ggggggggggggggg
- *Retur: ggggggggggggggggggggg
+ *Return: ggggggggggggggggggggg
  */
 
 void _puts(char *str)
