@@ -14,7 +14,7 @@ int is_prime_number(int n)
 		return (0);
 	}
 
-	for (c = 2; c <= n / 2; i++)
+	for (c = 2; c <= n / 2; c++)
 	{
 		if (n % i == 0)
 		{
