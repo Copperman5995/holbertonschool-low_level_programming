@@ -9,16 +9,26 @@
 
 int main(int argc, char *argv[])
 {
-	int sum;
+	int sum = 0;
 	int index = 1;
-	
+
 	if (argc <= 1)
 	{
-		printf("Error\n");
-		return (1);
+		printf("%d", sum);
+		return (0);
 	}
 	while (argv[index])
 	{
+		if (argv[index] >= 'a' && argv[index] <= 'z')
+		{
+			printf("Error");
+			return (1);
+		}
+		else
+		{
+			printf("Error");
+			return (1);
+		}
 		sum = sum + atoi(argv[index]);
 		index++;
 	}
