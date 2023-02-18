@@ -7,8 +7,10 @@
  * Return: kdfjg
  */
 
-int main(int a*rgv[])
+int main (int argc, char *argv[])
 {
-	printf("%c", argv[0]);
+	(void) argc;
+	printf("%s", argv[0]);
+	printf("\n");
 	return (0);
 }
