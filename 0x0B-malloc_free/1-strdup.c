@@ -12,7 +12,7 @@ char *_strdup(char *str)
 	int index1 = 0;
 	int index2 = 0;
 
-	if(str == NULL)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
@@ -21,7 +21,7 @@ char *_strdup(char *str)
 	{
 		index1++;
 	}
-	new_array= malloc(index1 * sizeof(char));
+	new_array = malloc(index1 * sizeof(char) + 1);
 
 	while (index2 <= index1)
 	{
