@@ -28,7 +28,7 @@ char *str_concat(char *s1, char *s2)
 		index++;
 	}
 
-	new_array = malloc(index * sizeof(char));
+	new_array = malloc(index * sizeof(char) + 1);
 
 	if (new_array == NULL)
 	{
@@ -44,6 +44,10 @@ char *str_concat(char *s1, char *s2)
 		new_array[index] = s1[len1];
 		len1++;
 		index++;
+	}
+	if (s2 == NULL)
+	{
+		return (new_array);
 	}
 	while (s2[len2])
 	{
