@@ -14,53 +14,42 @@ char *str_concat(char *s1, char *s2)
 	int index = 0;
 	char *new_array;
 
-
-	if ( s1 != NULL)
+	if ( s1 == NULL)
+		s1 = "";
+	if (s2 == NULL)
+		s2 = "";
+	
+	while (s1[len1])
 	{
-		while (s1[len1])
-		{
-			len1++;
-			index++;
-		}
+		len1++;
+		index++;
 	}
-
-	if (s2 != NULL)
+	while (s2[len2])
 	{
-		while (s2[len2])
-		{
-			len2++;
-			index++;
-		}
+		len2++;
+		index++;
 	}
-
 	new_array = malloc(index * sizeof(char) + 1);
-
 	if (new_array == NULL)
 	{
 		return (NULL);
 	}
-
 	len1 = 0;
 	len2 = 0;
 	index = 0;
-	if (s1 != NULL)
+	while (s1[len1])
 	{
-		while (s1[len1])
-		{
-			new_array[index] = s1[len1];
-			len1++;
-			index++;
-		}
+		new_array[index] = s1[len1];
+		len1++;
+		index++;
 	}
-	if (s2 != NULL)
+	while (s2[len2])
 	{
-		while (s2[len2])
-		{
-			new_array[index] = s2[len2];
-			len2++;
-			index++;
-		}
+		new_array[index] = s2[len2];
+		len2++;
+		index++;
 	}
+	
 	return (new_array);
 }
 
