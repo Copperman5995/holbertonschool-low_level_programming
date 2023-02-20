@@ -15,11 +15,13 @@ char *str_concat(char *s1, char *s2)
 	char *new_array;
 
 
-
-	while (s1[len1])
+	if ( s1 != NULL)
 	{
-		len1++;
-		index++;
+		while (s1[len1])
+		{
+			len1++;
+			index++;
+		}
 	}
 
 	if (s2 != NULL)
@@ -41,12 +43,14 @@ char *str_concat(char *s1, char *s2)
 	len1 = 0;
 	len2 = 0;
 	index = 0;
-
-	while (s1[len1])
+	if (s1 != NULL)
 	{
-		new_array[index] = s1[len1];
-		len1++;
-		index++;
+		while (s1[len1])
+		{
+			new_array[index] = s1[len1];
+			len1++;
+			index++;
+		}
 	}
 	if (s2 != NULL)
 	{
