@@ -6,7 +6,7 @@
  * Return: dfgsdfgdsf
  */
 
-char *_strdup(char *str);
+char *_strdup(char *str)
 {
 	char *new_array;
 	int index1 = 0;
