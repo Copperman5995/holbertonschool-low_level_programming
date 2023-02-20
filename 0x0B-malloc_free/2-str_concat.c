@@ -5,7 +5,7 @@
  * @s1: dfgdsf
  * @s2: sdfgfd
  * Return: sdfgdsfg
- */ 
+ */
 
 char *str_concat(char *s1, char *s2)
 {
@@ -14,11 +14,10 @@ char *str_concat(char *s1, char *s2)
 	int index = 0;
 	char *new_array;
 
-	if ( s1 == NULL)
+	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
 		s2 = "";
-	
 	while (s1[len1])
 	{
 		len1++;
@@ -47,7 +46,6 @@ char *str_concat(char *s1, char *s2)
 		len2++;
 		index++;
 	}
-	
 	return (new_array);
 }
 
