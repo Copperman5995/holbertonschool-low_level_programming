@@ -22,6 +22,10 @@ char *_strdup(char *str)
 		index1++;
 	}
 	new_array = malloc(index1 * sizeof(char) + 1);
+	if (new_array == NULL)
+	{
+		return (NULL);
+	}
 
 	while (index2 <= index1)
 	{
