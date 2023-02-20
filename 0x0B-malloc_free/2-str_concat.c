@@ -48,11 +48,14 @@ char *str_concat(char *s1, char *s2)
 		len1++;
 		index++;
 	}
-	while (s2[len2])
+	if (s2 != NULL)
 	{
-		new_array[index] = s2[len2];
-		len2++;
-		index++;
+		while (s2[len2])
+		{
+			new_array[index] = s2[len2];
+			len2++;
+			index++;
+		}
 	}
 	return (new_array);
 }
