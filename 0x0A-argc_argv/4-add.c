@@ -19,17 +19,18 @@ int main(int argc, char *argv[])
 	}
 	while (argv[index])
 	{
-		if (argv[index] >= 'a' && argv[index] <= 'z')
+		if (!(argv[index] >= 'a' && argv[index] <= 'z'))
 		{
-			printf("Error");
-			return (1);
+			if (!(argv[index] >= 'A' && argv[index] <= 'Z'))
+			{
+				sum = sum + atoi(argv[index);
+			}
 		}
 		else
 		{
 			printf("Error");
 			return (1);
 		}
-		sum = sum + atoi(argv[index]);
 		index++;
 	}
 	printf("%d", sum);
