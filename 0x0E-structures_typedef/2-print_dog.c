@@ -19,7 +19,7 @@ void print_dog(struct dog *d)
 			printf("Name: (nil)\n");
 		}
 
-		if (sizeof((*d).age) > 0)
+		if ((*d).age > 0)
 		{
 			printf("Age: %.1f\n", (*d).age);
 		}
