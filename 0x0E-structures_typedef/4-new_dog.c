@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 int _strlen(char *str);
 char *_strcopy(char *dest, char *src);
@@ -68,7 +69,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return(NULL);
 	}
 
-	(*doog).owner = mallpc(sizeof(char) * (_strlen(owner) + 1));
+	(*doog).owner = malloc(sizeof(char) * (_strlen(owner) + 1));
 	if ((*doog).owner == NULL)
 	{
 		free((*doog).name);
