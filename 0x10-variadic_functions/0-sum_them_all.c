@@ -5,7 +5,7 @@
  * Return: returns the sum of the ints
  */
 
-int sum_them_all (const unsigned int n, ...)
+int sum_them_all(const unsigned int n, ...)
 {
 	int sum = 0;
 	unsigned int i = 0;
@@ -20,6 +20,5 @@ int sum_them_all (const unsigned int n, ...)
 		i++;
 	}
 	va_end(ptr);
-	 
 	return (sum);
 }
