@@ -1,4 +1,4 @@
-#include "main.h"
+#include "variadic_functions.h"
 /**
  * sum_them_all - adds all the together
  * @n: is the number of ints that will be added
