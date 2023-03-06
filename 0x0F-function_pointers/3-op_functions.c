@@ -24,3 +24,39 @@ int op_sub(int a, int b)
 
 	return (i);
 }
+/**
+ * op_mul - multiplys a by b
+ * @a: first int
+ * @b: second int
+ * Return: retruns product of a and b
+ */
+int op_mul(int a, int b)
+{
+	int i = a * b;
+
+	return (i);
+}
+/**
+ * op_div - subtracts a from b
+ * @a: first int
+ * @b: second int
+ * Return: retruns result of a divided by b
+ */
+int op_div(int a, int b)
+{
+	int i = a / b;
+
+	return (i);
+}
+/**
+ * op_mod - finds the remainder of a divided by b
+ * @a: first int
+ * @b: second int
+ * Return: retruns the remainder of a divided by b
+ */
+int op_mod(int a, int b)
+{
+	int i = a % b;
+
+	return (i);
+}
