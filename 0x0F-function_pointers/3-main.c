@@ -22,7 +22,7 @@ int main (int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	optype = argv[2];
-	equation = get-op_func(optype);
+	equation = get_op_func(optype);
 
 	if (equation == NULL)
 	{
