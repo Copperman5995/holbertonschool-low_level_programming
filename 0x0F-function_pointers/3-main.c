@@ -3,7 +3,7 @@
  * main - does main things
  * @argc: counts the arguments
  * @argv: stroes the arguments
- * Return: the end reslut mabye
+ * Return: returns 0
  */
 
 int main (int argc, char *argv[])
@@ -11,7 +11,7 @@ int main (int argc, char *argv[])
 	int a;
 	int b;
 	char *optype;
-	int (*oppassed)(int, int);
+	int (*equation)(int, int);
 
 	if (argc != 4)
 	{
@@ -22,13 +22,24 @@ int main (int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 	optype = argv[2];
-	oppassed = get-op_func(optype);
+	equation = get-op_func(optype);
 
-	if (oppassed == NULL)
+	if (equation == NULL)
 	{
 		printf("Error\n");
 		exit(99);
 	}
+
+	if ((strcmp(optype, "/") == 0 || strcmp(optype, "%") == 0) && b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	printf("%d\n", equation(a, b));
+	return (0);
+}
+
 
 	
 
