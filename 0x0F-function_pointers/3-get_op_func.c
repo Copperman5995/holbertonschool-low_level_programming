@@ -21,7 +21,7 @@ int (*get_op_func(char *s))(int, int)
 	if (strlen(s) != 1)
 		return (NULL);
 
-	while (ops[i].op != NULL || ops[i].op != s)
+	while (ops[i].op != NULL && ops[i].op != s)
 	{
 		i++;
 	}
