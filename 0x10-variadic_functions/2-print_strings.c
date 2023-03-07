@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(yeet, n);
 
-	while (i < n)
+	while (i < n - 1)
 	{
 		s = va_arg(yeet, char *);
 		if (s == NULL)
