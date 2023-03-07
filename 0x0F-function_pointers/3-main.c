@@ -15,7 +15,7 @@ int main (int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf("Error 1\n");
+		printf("Error\n");
 		exit(98);
 	}
 
@@ -26,13 +26,13 @@ int main (int argc, char *argv[])
 
 	if (equation == NULL)
 	{
-		printf("Error 2\n");
+		printf("Error\n");
 		exit(99);
 	}
 
 	if ((strcmp(optype, "/") == 0 || strcmp(optype, "%") == 0) && b == 0)
 	{
-		printf("Error 3\n");
+		printf("Error\n");
 		exit(100);
 	}
 
