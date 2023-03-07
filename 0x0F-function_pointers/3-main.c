@@ -6,7 +6,7 @@
  * Return: returns 0
  */
 
-int main (int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int a;
 	int b;
@@ -39,7 +39,4 @@ int main (int argc, char *argv[])
 	printf("%d\n", equation(a, b));
 	return (0);
 }
-
-
-	
 
