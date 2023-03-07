@@ -22,7 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	while (i < n)
 	{
-		s = va_arg(ap, char *);
+		s = va_arg(yeet, char *);
 		if (s == NULL)
 		{
 			printf("(nil)");
@@ -45,3 +45,4 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	{
 		printf("%s\n", s);
 	}
+}
