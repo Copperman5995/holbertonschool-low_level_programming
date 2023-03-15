@@ -6,7 +6,7 @@
  */
 
 size_t print_list(const list_t *h)
-{ 
+{
 	int num = 0;
 	const list_t *temp = h;
 
@@ -18,11 +18,10 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-		printf("[%d] %s\n", temp->len, temp->str);
+			printf("[%d] %s\n", temp->len, temp->str);
 		}
-		num++;		
-		temp = temp->next;
-		
+		num++;
+		temp = temp->next;	
 	}
 	return (num);
 
