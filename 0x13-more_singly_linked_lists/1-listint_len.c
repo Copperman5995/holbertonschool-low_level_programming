@@ -5,7 +5,7 @@
  * Return: sdfgsd
  */
 
-size_t listint_len(cosnt listint_t *h)
+size_t listint_len(const listint_t *h)
 {
 	const listint_t *temp = h;
 	int numnode = 0;
