@@ -16,7 +16,7 @@ unsigned int _pow(unsigned int i, unsigned int b)
 
 	while (c < b)
 	{
-		num = num * a;
+		num = num * i;
 		c++;
 	}
 
