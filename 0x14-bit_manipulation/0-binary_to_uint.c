@@ -1,5 +1,4 @@
 #include "main.h"
-#include "_pow.c"
 #include <string.h>
 /**
  * binary_to_uint - adsfgdsfg
