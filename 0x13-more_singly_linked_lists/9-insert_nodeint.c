@@ -22,7 +22,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 
 	if (idx == 0)
 	{
-		insertnode->next = *head;
+		insertNode->next = *head;
 		*head = insertNode;
 		return (insertNode);
 	}
