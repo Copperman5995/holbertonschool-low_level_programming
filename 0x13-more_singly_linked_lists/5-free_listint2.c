@@ -1,17 +1,17 @@
 #include "lists.h"
+#include "4-free_listint.c"
 /**
- * free_listint2 - sdgsdg
- * @head: adfgsdf
+ * free_listint2 - sdfgsd
+ * @head: adfgsd
  */
-void free_listint2(listint_t *head)
-{
-	listint_t *temp;
 
-	while (head)
+void free_listint2(listint_t **head)
+{
+	if (!(head))
 	{
-		temp = head;
-		head = head->next;
-		free(temp);
+		return;
 	}
+	free_listint(*head);
+	*head = NULL;
 }
 
