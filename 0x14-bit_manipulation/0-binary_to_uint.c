@@ -19,11 +19,11 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] == '1')
 		{
-			dec = ((2 * sum) + 1);
+			dec = ((2 * dec) + 1);
 		}
 		else if (b[i] == '0')
 		{
-			sum = sum * 2;
+			dec = dec * 2;
 		}
 		else
 		{
