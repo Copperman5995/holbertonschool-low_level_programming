@@ -13,8 +13,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 
 	while (yeet > 0)
 	{
-		fipl++;
-		yeet &= (num -1);
+		flip++;
+		yeet &= (yeet -1);
 	}
 
 	return (flip);
