@@ -1,9 +1,10 @@
 #include "lists.h"
+
 /**
- * add_dnodeint _end - sdfgdsf
- * @head: sdfgdf
- * @n: adsfgsdfg
- * Return: sdfgdfgdfg
+ * add_dnodeint_end - sdfgdfgdf
+ * @head: asdffds
+ * @n: sdfdsf
+ * Return: sdfgd
  */
 
 dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
@@ -31,6 +32,5 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	}
 
 	temp->next = newNodeEnd;
-	
 	return (newNodeEnd);
 }
