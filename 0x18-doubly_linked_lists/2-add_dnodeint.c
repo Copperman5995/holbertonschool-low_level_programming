@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add-dnodeint - sdfgsdg
+ * add_dnodeint - sdfgsdg
  * @head: sdfgdfg
  * @n: sdfgdg
  * Return: sdfgdfg
