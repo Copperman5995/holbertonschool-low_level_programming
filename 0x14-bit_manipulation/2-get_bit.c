@@ -6,7 +6,7 @@
  * Return: sdfgdfg
  */
 
-int get_bit(unsigned long it n, unsigned int index)
+int get_bit(unsigned long int n, unsigned int index)
 {
 	unsigned int i = 0;
 
