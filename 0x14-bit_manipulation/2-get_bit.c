@@ -17,4 +17,23 @@ int get_bit(unsigned long it n, unsigned int index)
 
 	while (n >= 1)
 	{
+		if (i >= index)
+		{
+			break;
+		}
+		n /= 2;
+		i++;
+	}
+
+	if (index > i && index < sizeof(long int) * 8)
+	{
+		return (0);
+	}
+	if (index > sizeof(long int) * 8)
+	{
+		return (-1);
+	}
+
+	return (n % 2);
+}
 
