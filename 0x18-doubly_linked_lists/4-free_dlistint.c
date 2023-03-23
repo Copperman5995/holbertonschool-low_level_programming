@@ -1,7 +1,8 @@
 #include "lists.h"
+
 /**
- * free-dlistint - sdfgdfg
- * @head: sdfdfgd
+ * free_dlistint - sdfgdfg
+ * @head: asddsf
  */
 
 void free_dlistint(dlistint_t *head)
