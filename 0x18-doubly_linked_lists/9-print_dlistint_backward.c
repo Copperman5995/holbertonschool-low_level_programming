@@ -10,6 +10,11 @@ size_t print_dlistint_backward(const dlistint_t *h)
 	const dlistint_t *temp = h;
 	size_t numNode = 0;
 
+	if (!temp)
+	{
+		return (0);
+	}
+
 	while (temp->next)
 	{
 		temp = temp->next;
