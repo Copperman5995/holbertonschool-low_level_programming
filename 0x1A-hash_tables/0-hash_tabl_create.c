@@ -29,5 +29,5 @@ hash_table_t *hash_table_create(unsigned long int size)
 	}
 
 	newTable->size = size;
-	return (has_table);
+	return (newTable);
 }
