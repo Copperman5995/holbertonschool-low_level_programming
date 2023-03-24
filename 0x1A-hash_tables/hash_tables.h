@@ -25,7 +25,7 @@ typedef struct hash_node_s
  *
  * @size: The size of the array
  * @array: An array os size @size
- * Each cell of this array is a pointer to the firat node of the linked list,
+ * Each cell of tis array is a pointer to the firat node of the linked list,
  * because we want pur HashTable to use a Chaining collision handling
  */
 typedef struct hash_table_s
